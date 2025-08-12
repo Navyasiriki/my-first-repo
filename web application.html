@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sweet Treats Bakery</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/cupcake.jpg" alt="Cupcake">
+                <h3>Chocolate Cupcake</h3>
+                <p>₹50 each</p>
+                <button onclick="addToCart('Chocolate Cupcake')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/croissant.jpg" alt="Croissant">
+                <h3>Butter Croissant</h3>
+                <p>₹60 each</p>
+                <button onclick="addToCart('Butter Croissant')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We bake with love and use only the freshest ingredients to make your day sweeter!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: hello@sweettreats.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Sweet Treats Bakery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
